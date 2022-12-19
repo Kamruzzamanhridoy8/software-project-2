@@ -40,14 +40,50 @@
                 <h1>Address:</h1>
                 Dakshin khan uttara Dhaka 1230. <br>
                 house 70 road alkas uddin flat-301
-                <br>
-                <br>
-                <br>
-                <br>
+                <br><br><br><br>
                 <a href="https://goo.gl/maps/qcLQm2AE12q9f6R98"><i class="fa-solid fa-location-dot"></i> Location</a>
             </address>
         </div>
     </div>
 
+    <!-- ------------------------end of the header ------------------------------------------- -->
+    <br><br><br>
+    <div class="form-header">
+        <h1>Insert Your Data in this table</h1>
+    </div>
+    <div class="function">
+        <div class="table1">
+            <form class="insert-form" action="">
+                <h1>Name</h1>
+                <input id="in1" required class="in-info" placeholder="Enter Your Exam Name" type="text">
+                <h1>Institution</h1>
+                <input id="in2" required class="in-info" placeholder="Enter Your Institution Name" type="text">
+                <h1>GPA</h1>
+                <input id="in3" required class="in-info" placeholder="Enter Your GPA" type="text">
+                <h1>Year</h1>
+                <input id="in4" required class="in-info" placeholder="Enter Your Passing Year" type="text">
+                <button type="reset" class="insert submit">Reset &#8635;</button>
+                <button onclick="insersion()" type="button" class="insert">Insert &#10148;</button>
+            </form>
+        </div>
+        <div class="table2">
+            <table border="1" id="outputTable">
+                <thead>
+                    <tr class="tr-head">
+                        <th class="t-head">Name</th>
+                        <th class="t-head">Institution</th>
+                        <th class="t-head">GPA</th>
+                        <th class="t-head">Year</th>
+                    </tr>
+                </thead>
+            </table>
+
+        </div>
+    </div>
+
+
+    <script src="js/action.js">
+
+    </script>
 </body>
 </html>

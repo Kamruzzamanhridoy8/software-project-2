@@ -1,5 +1,5 @@
 *{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa',serif;
     font-weight: 400px;
     margin: 0;
     padding: 0;
@@ -53,15 +53,6 @@ header h1{
     transform: rotate(20deg)
 }
 
-/* .socialmeadia{
-    width: 265px;
-    border: 1px solid;
-    padding-left: 40px;
-}
-.socialmeadia i{
-    font-size: 30px;
-    padding: 8px ;
-} */
 /* ...................finish lif of navber................ */
 .container{
     display: flex;
@@ -101,4 +92,64 @@ address a:hover{
     color: black;
     transition: 1s ;
     background-color: #498cf6;
+}
+/* --------------------ending of header section------------------ */
+.form-header h1{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.function{
+    display: flex;
+    justify-content: space-between;
+}
+.table1 .in-info{
+    height: 29px;
+    width: 250px;
+    display: block;
+    padding: 5px;
+    margin: 30px 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: #F2F4F5;
+  }
+.insert{
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    border:none;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #498cf6;
+    color: white;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.submit{
+    margin-right: 20px;
+}
+.table1{
+    height: 500px;
+    width: 320px;
+    padding-top: 45px;
+    padding-left: 45px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 80px .1px rgba(145, 145, 144, 0.479);
+}
+.table1 .insert-form h1{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.table2{
+    height: 500px;
+    width: 800px;
+    padding-top: 45px;
+    padding-left: 45px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 80px .1px rgba(145, 145, 144, 0.479);
+}
+.table2 .t-head{
+    padding: 5px 65px;
 }
