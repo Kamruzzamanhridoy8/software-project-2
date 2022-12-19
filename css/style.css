@@ -10,6 +10,7 @@ a{
 }
 body{
     margin:100px;
+    margin-bottom: 30px;
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -166,4 +167,49 @@ address a:hover{
     border: 1px solid #498CF6;
     border-radius: 5px;
 }
+/* ---------end of the table------------- */
+footer h4{
+    text-align: center;
+}
+footer{
+    position: relative;
+}
+.s-icon a i{
+    font-size: 22px;
+    padding: 10px;
+    transform: translateX(530px);
+    transition: 1s;
+    color: black;
+    border-radius: 50%;
 
+}
+.fa-facebook:hover{
+    color: #1876EF;
+    transition: .5s;
+    box-shadow: 10px 10px 80px .1px rgba(115, 73, 251, 0.479);
+    border-radius: 50%;
+}
+.fa-twitter:hover{
+    color: #1EA1F2;
+    transition: .5s;
+    box-shadow: 10px 10px 80px .1px rgba(115, 73, 251, 0.479);
+    border-radius: 50%;
+}
+.fa-github:hover{
+    color: #272B33;
+    transition: .5s;
+    box-shadow: 10px 10px 80px .1px rgba(115, 73, 251, 0.479);
+    border-radius: 50%;
+}
+.fa-linkedin:hover{
+    color: #0174B2;
+    transition: .5s;
+    box-shadow: 10px 10px 80px .1px rgba(115, 73, 251, 0.479);
+    border-radius: 50%;
+}
+.fa-whatsapp:hover{
+    color: #21B239;
+    transition: .5s;
+    box-shadow: 10px 10px 80px .1px rgba(115, 73, 251, 0.479);
+    border-radius: 50%;
+}
