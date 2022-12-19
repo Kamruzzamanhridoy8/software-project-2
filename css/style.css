@@ -135,6 +135,11 @@ address a:hover{
     padding-left: 45px;
     border-radius: 20px;
     box-shadow: 10px 10px 80px .1px rgba(145, 145, 144, 0.479);
+    transition: 1s;
+}
+.table1:hover{
+    box-shadow: 10px 10px 80px .1px rgba(115, 73, 251, 0.479);
+    transition: 1s;
 }
 .table1 .insert-form h1{
     font-size: 16px;
@@ -149,7 +154,16 @@ address a:hover{
     padding-left: 45px;
     border-radius: 20px;
     box-shadow: 10px 10px 80px .1px rgba(145, 145, 144, 0.479);
+    transition: 1s;
+}
+.table2:hover{
+    box-shadow: 10px 10px 80px .1px rgba(115, 73, 251, 0.479);
+    transition: 1s;
 }
 .table2 .t-head{
     padding: 5px 65px;
+    text-align: center;
+    border: 1px solid #498CF6;
+    border-radius: 5px;
 }
+
