@@ -160,6 +160,7 @@ address a:hover{
     border-radius: 20px;
     box-shadow: 10px 10px 80px .1px rgba(145, 145, 144, 0.479);
     transition: 1s;
+    overflow-y:scroll;
 }
 .table2:hover{
     box-shadow: 10px 10px 80px .1px rgba(115, 73, 251, 0.479);
