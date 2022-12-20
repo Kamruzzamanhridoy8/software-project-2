@@ -114,6 +114,10 @@ address a:hover{
     border: none;
     background-color: #F2F4F5;
   }
+  .in-info:focus{
+    outline:none;
+    border: 1px solid rgb(49, 107, 252);
+  }
 .insert{
     height: 40px;
     width: 110px;
