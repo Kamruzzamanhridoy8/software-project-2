@@ -166,10 +166,16 @@ address a:hover{
     transition: 1s;
 }
 .table2 .t-head{
-    padding: 5px 65px;
+    padding: 5px 53px;
     text-align: center;
     border: 1px solid #498CF6;
     border-radius: 5px;
+}
+#outputTable{
+    border-collapse:collapse;
+    border: 1px solid rgb(45, 101, 241);
+    text-align: center;
+
 }
 /* ---------end of the table------------- */
 footer h4{
