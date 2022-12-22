@@ -30,6 +30,7 @@ header h1{
     display: flex;
     justify-content: space-between;
     margin-right: 5%;
+    margin-left: 5%;
 }
 .about{
     width: 600px;
@@ -155,6 +156,7 @@ address a:hover{
 .table2{
     height: 500px;
     width: 800px;
+    margin-left: 5%;
     padding-top: 45px;
     padding-left: 45px;
     border-radius: 20px;
