@@ -25,6 +25,10 @@ header h1{
 .ber{
     display: flex;
     justify-content: space-between;
+
+}
+.a-ber{
+    margin-right: 12px;
 }
 .nav-ber{
     display: flex;
@@ -136,11 +140,13 @@ address a:hover{
 .table1{
     height: 500px;
     width: 320px;
-    padding-top: 45px;
-    padding-left: 45px;
+    padding: 23.3px 10px ;
     border-radius: 20px;
     box-shadow: 10px 10px 80px .1px rgba(145, 145, 144, 0.479);
     transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .table1:hover{
     box-shadow: 10px 10px 80px .1px rgba(115, 73, 251, 0.479);
@@ -154,10 +160,12 @@ address a:hover{
 }
 .table2{
     height: 500px;
-    width: 800px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px ;
     margin-left: 5%;
     padding-top: 45px;
-    padding-left: 45px;
     border-radius: 20px;
     box-shadow: 10px 10px 80px .1px rgba(145, 145, 144, 0.479);
     transition: 1s;
