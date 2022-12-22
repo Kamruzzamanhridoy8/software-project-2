@@ -182,13 +182,13 @@ address a:hover{
 footer h4{
     text-align: center;
 }
-footer{
-    position: relative;
+.s-icon{
+    display: flex;
+    justify-content:center;
 }
 .s-icon a i{
     font-size: 22px;
     padding: 10px;
-    transform: translateX(530px);
     transition: 1s;
     color: black;
     border-radius: 50%;
